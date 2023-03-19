@@ -1,0 +1,29 @@
+.header {
+    margin: 2rem 10%;
+    padding: 1rem;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #ece1fa;
+}
+
+.logo {
+    font-size: 2rem;
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+    color: #ece1fa;
+}
+
+.button {
+    cursor: pointer;
+    display: inline-flex;
+    width: 10rem;
+    height: 3rem;
+    justify-content: center;
+    align-items: center;
+    background-color: #9c7eee;
+    border-radius: 6px;
+    border: none;
+}
