@@ -14,17 +14,19 @@
 }
 
 .title {
-    font-size: 0.8rem;
+    font-size: 24px;
     font-weight: bold;
     color: #543280;
     margin: 0;
+    margin-bottom: 10px;
     text-transform: uppercase;
 }
 
 .text {
     white-space: pre-wrap;
-    font-size: 1.25rem;
-    margin: 0.25rem 0 0 0;
+    font-size: 18px;
+    margin: 0.25rem 0 20px 0;
+    line-height: 1.5;
     color: #593884;
     font-style: italic;
 }

@@ -1,6 +1,7 @@
 import classes from "./PostDetails.module.css";
 import Modal from "../components/Modal";
 import { useLoaderData, Link } from "react-router-dom";
+import PostFooter from "../components/PostFooter";
 
 function PostDetails() {
     const post = useLoaderData();
@@ -25,7 +26,9 @@ function PostDetails() {
         <Modal>
             <main className={classes.details}>
                 <h1 className={classes.title}>{post.title}</h1>
+                <hr />
                 <p className={classes.text}>{post.body}</p>
+                <PostFooter tags={post.tags} reactions={post.reactions} />
             </main>
         </Modal>
     );

@@ -72,6 +72,8 @@ function PostsList(props) {
                             id={post.id}
                             title={post.title}
                             body={post.body}
+                            tags={post.tags}
+                            reactions={post.reactions}
                         />
                     ))}
                 </ul>
